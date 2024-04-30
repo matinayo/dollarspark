@@ -1,13 +1,55 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Dollarsparks</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="56x56" src="images/fav-icon/icon.png">
+  <style>
+    .svg-img {
+      height: 320px;
+      border-radius: 50%;
+    }
+
+    @media screen and (max-width: 994px) {
+      .svg-img {
+        height: 220px;
+      }
+    }
+
+    @media screen and (min-width: 995px) and (max-width: 1205px) {
+      .svg-img {
+        height: 245px;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  
   <app-root></app-root>
+
+  <button class="scroll-top">
+    <i class="bi bi-arrow-up-short"></i>
+  </button>
+  
+  <!-- jQuery -->
+  <script src="assets/vendor/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- WOW js -->
+  <script src="assets/vendor/wow/wow.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="assets/vendor/slick/slick.min.js"></script>
+  <!-- Fancybox -->
+  <!-- Lazy -->
+  <script src="assets/vendor/jquery.lazy.min.js"></script>
+
+
+  <!-- Theme js -->
+  <script src="assets/js/theme.js"></script>
 </body>
+
 </html>
